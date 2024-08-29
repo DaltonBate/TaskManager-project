@@ -32,10 +32,14 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    margin: 0; /* Ensure there's no margin on the body */
+}
+
 .container {
     width: 100%;
     height: 100vh;
-    background-image: url(/images/WEBbackround.jpeg);
+   /* background-image: url(/images/CalendarMountain.jpeg); /* Ensure the path to your image is correct */
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -83,7 +87,6 @@ html {
         font-size: 1.6rem;
     }
 
-
 .weekdays {
     width: 100%;
     height: 5rem;
@@ -96,7 +99,7 @@ html {
         font-size: 1.5rem;
         font-weight: 400;
         letter-spacing: 0.1rem;
-        width: calc(44.2rem/7);
+        width: calc(44.2rem / 7);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -113,7 +116,7 @@ html {
     .days div {
         font-size: 1.4rem;
         margin: 0.3rem;
-        width: calc(40.2rem /7);
+        width: calc(40.2rem / 7);
         height: 5rem;
         display: flex;
         justify-content: center;
@@ -121,7 +124,7 @@ html {
         text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
     }
 
-        .days div:hover:not(today) {
+        .days div:hover:not(.today) {
             background-color: rgb(163, 163, 163);
             border: .2rem solid #000000;
         }
@@ -131,9 +134,7 @@ html {
     opacity: 0.5;
 }
 
-
-
-.delete-button {
+.delete-event {
     background-color: #f44336;
     color: white;
     border: none;
@@ -147,7 +148,6 @@ html {
     background-color: yellow;
     border: .2rem solid black;
 }
-
 
 .event-button {
     background-color: lightblue;
@@ -165,4 +165,35 @@ html {
     border-radius: 3px;
 }
 
+/*Changes link style*/
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+.event-day {
+    background-color: lightgreen; /* Change this to any color or style you prefer */
+    border: .2rem solid darkgreen;
+    position: relative;
+}
+
+    .event-day::after {
+        content: '??'; /* Emoji or icon to indicate an event */
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        font-size: 1.5rem; /* Adjust size as needed */
+    }
 

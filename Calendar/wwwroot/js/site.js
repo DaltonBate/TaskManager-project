@@ -1,6 +1,7 @@
 ﻿const date = new Date();
 const eventsKey = 'calendarEvents';
 
+console.log('script loaded');
 // Load events from local storage
 const loadEvents = () => {
     const storedEvents = localStorage.getItem(eventsKey);
@@ -42,19 +43,38 @@ const renderCalendar = () => {
         days += `<div class="prev-date">${prevLastDay - x + 1}</div>`;
     }
 
+    const ul = document.createElement('ul');
     // Render current month's days
     for (let i = 1; i <= lastDay; i++) {
         const currentDate = new Date(date.getFullYear(), date.getMonth(), i);
         const formattedDate = currentDate.toISOString().split('T')[0]; // Format date as YYYY-MM-DD
-        const todayClass = (i === new Date().getDate() && date.getMonth() === new Date().getMonth() && date.getFullYear() === new Date().getFullYear()) ? 'today' : '';
+        const todayClass = (i === new Date().getDate() && date.getMonth() === new Date().getMonth() && date.getFullYear() === new Date().getFullYear()) ? 'today' : 'otherdays';
+
+        const li = document.createElement('li');
+
+        if (events[formattedDate]) {
+                const deleteButton = document.createElement('button');
+
+                deleteButton.classList.add('delete-event');
+                deleteButton['data-date'] = formattedDate;
+                deleteButton['data-index'] = i;
+
+                deleteButton.addEventListener('click', () => {
+                    console.log('this delete event triggered when clicked');
+                    if (events[eventDate]) {
+                        delete events[eventDate];
+                        saveEvents(events);
+                        eventList.innerHTML = '<p>No events for this date.</p>';
+                    }
+                });
+
+                li.append(deleteButton);
+        }
+        ul.append(li);
 
         let eventsMarkup = '';
-        if (events[formattedDate]) {
-            eventsMarkup = `<ul>${events[formattedDate].map((event, index) => `<li>${event}
-            <button class="delete-event" data-date="${formattedDate}" data-index="${index}">Delete</button></li>`).join('')}</ul>`;
-        }
 
-        days += `<div class="${todayClass}" data-date="${formattedDate}">${i}${eventsMarkup}</div>`;
+        days += `<a href="${`/Event/ViewEvent?eventDate=${formattedDate}`}"><div class="${todayClass}" data-date="${formattedDate}">${i}${eventsMarkup}</div></a>`;
     }
 
     // Render next month's days
@@ -64,6 +84,7 @@ const renderCalendar = () => {
 
     monthDays.innerHTML = days;
 }
+
 
 document.querySelector('.prev').addEventListener('click', () => {
     date.setMonth(date.getMonth() - 1);
@@ -77,22 +98,16 @@ document.querySelector('.next').addEventListener('click', () => {
 
 renderCalendar();
 
-document.getElementById('add-event').addEventListener('click', () => {
-    const eventDate = document.getElementById('event-date').value;
-    const eventDescription = document.getElementById('event-description').value;
-
-    if (eventDate && eventDescription) {
-        if (!events[eventDate]) {
-            events[eventDate] = [];
+document.querySelector('.days').addEventListener('click', (event) => {
+    if (event.target.classList.contains('today') || event.target.classList.contains('prev-date') || event.target.classList.contains('next-date')) {
+        const eventDate = event.target.getAttribute('data-date');
+        if (date) {
+            window.location.href = `/event.html?date=${eventDate}`;
         }
-        events[eventDate].push(eventDescription);
-        document.getElementById('event-description').value = ''; // Clear input
-        saveEvents(); // Save to local storage
-        renderCalendar();
-    } else {
-        alert('Please enter both date and description');
     }
 });
+
+
 
 // Handle event deletion
 document.querySelector('.days').addEventListener('click', (event) => {

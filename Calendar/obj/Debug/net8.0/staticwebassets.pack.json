@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\wwwroot\\images\\WEBbackround.jpeg",
-      "PackagePath": "staticwebassets\\images\\WEBbackround.jpeg"
-    },
-    {
       "Id": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

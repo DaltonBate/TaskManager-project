@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T73nmpw/Z5M+8UsY3CeqkUynThSPX31vHiqGWynBFgI=",
+  "Hash": "To8ok7TeoXR8Vs/GVM1a4EBh2+QOQoSYzl8SE48USgg=",
   "Source": "Calendar",
   "BasePath": "_content/Calendar",
   "Mode": "Default",
@@ -91,25 +91,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\wwwroot\\images\\WEBbackround.jpeg",
-      "SourceId": "Calendar",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\wwwroot\\",
-      "BasePath": "_content/Calendar",
-      "RelativePath": "images/WEBbackround.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\WEBbackround.jpeg"
     },
     {
       "Identity": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\wwwroot\\js\\site.js",
