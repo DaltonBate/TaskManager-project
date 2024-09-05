@@ -1,4 +1,4 @@
-﻿    <!DOCTYPE html>
+﻿    <!DOCTYPE html>  @*Event Page *@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,17 +37,17 @@
     </div>
 
     <script>
-        const eventsKey = 'calendarEvents';
-        const params = new URLSearchParams(window.location.search);
-        const eventDate = params.get('date');
-        const eventList = document.getElementById('eventList');
+        const eventsKey = 'calendarEvents'; /* store and retrieve events from the browser's local storage. */
+        const params = new URLSearchParams(window.location.search);  /* allows easy access to query parameters. */
+        const eventDate = params.get('date'); /* Gets events for specific date */
+        const eventList = document.getElementById('eventList'); /* allows event details to be displayed */
 
-        const loadEvents = () => {
+        const loadEvents = () => { /* Retrives events stored in localStorage */
             const storedEvents = localStorage.getItem(eventsKey);
             return storedEvents ? JSON.parse(storedEvents) : {};
         };
 
-        const saveEvents = (events) => {
+        const saveEvents = (events) => { /* converts objects to a JSON string before storing*/
             localStorage.setItem(eventsKey, JSON.stringify(events));
         };
 

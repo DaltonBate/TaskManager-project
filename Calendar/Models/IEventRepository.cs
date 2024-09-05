@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Calendar.Models
 {
-    public interface IEventRepository
+    public interface IEventRepository                                  //Method Signatures
     {
         public IEnumerable<Event> GetAllEvents();
         public Event GetEvent(int id);

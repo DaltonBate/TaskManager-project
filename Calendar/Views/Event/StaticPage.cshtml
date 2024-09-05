@@ -1,28 +1,24 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
+@* Home Calendar page *@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendar</title>
+    <title>calendar</title>
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
     <link rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=edu+au+vic+wa+nt+hand:wght@400..700&display=swap" rel="stylesheet" />
 
     <style>
-        .delete-event {
+
+        .hasEventClass {
+            background-color: green;
             color: white;
-            background-color: red;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 3px;
-            cursor: pointer;
+            border-radius: 50%;
         }
 
-            .delete-event:hover {
-                background-color: darkred;
-            }
     </style>
 </head>
 <body>
@@ -38,20 +34,19 @@
                 <i class="fas fa-angle-right next"></i>
             </div>
             <div class="weekdays">
-                <div>Sun</div>
-                <div>Mon</div>
-                <div>Tue</div>
-                <div>Wed</div>
-                <div>Thu</div>
-                <div>Fri</div>
-                <div>Sat</div>
+                <div>sun</div>
+                <div>mon</div>
+                <div>tue</div>
+                <div>wed</div>
+                <div>thu</div>
+                <div>fri</div>
+                <div>sat</div>
             </div>
             <div class="days">
+                @* Class for grey hover affect *@
+
             </div>
         </div>
     </div>
 </body>
-</html>
-
-
-
+</html> 

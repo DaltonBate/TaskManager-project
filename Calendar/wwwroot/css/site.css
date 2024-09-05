@@ -144,6 +144,7 @@ body {
     border-radius: 3px;
 }
 
+
 .today {
     background-color: yellow;
     border: .2rem solid black;
@@ -183,17 +184,5 @@ a:active {
     color: black;
 }
 
-.event-day {
-    background-color: lightgreen; /* Change this to any color or style you prefer */
-    border: .2rem solid darkgreen;
-    position: relative;
-}
 
-    .event-day::after {
-        content: '??'; /* Emoji or icon to indicate an event */
-        position: absolute;
-        bottom: 5px;
-        right: 5px;
-        font-size: 1.5rem; /* Adjust size as needed */
-    }
 

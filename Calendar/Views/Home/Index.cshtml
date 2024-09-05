@@ -1,4 +1,4 @@
-﻿<!doctype html>
+﻿<!doctype html>    @* Home Calendar page *@
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -12,19 +12,16 @@
     <link rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=edu+au+vic+wa+nt+hand:wght@400..700&display=swap" rel="stylesheet"/>
 
-    <style>
-      .delete-event {
-          color: white;
-          background-color: red;
-          border: none;
-          padding: 5px 10px;
-          border-radius: 3px;
-          cursor: pointer;
-      }
-  
-      .delete-event:hover {
-          background-color: darkred;
-      }
+  <style>
+    
+        .hasEventClass {
+            background-color: green;
+            color: white;
+            border-radius: 50%; 
+        }
+
+
+
   </style>
    </head>
    <body>
@@ -48,7 +45,7 @@
            <div>fri</div>
            <div>sat</div>
          </div>
-         <div class="days">
+         <div class="days"> @* Class for grey hover affect *@
             
          </div>
       </div>

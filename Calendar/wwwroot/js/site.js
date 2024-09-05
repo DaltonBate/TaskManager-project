@@ -49,9 +49,17 @@ const renderCalendar = () => {
         const currentDate = new Date(date.getFullYear(), date.getMonth(), i);
         const formattedDate = currentDate.toISOString().split('T')[0]; // Format date as YYYY-MM-DD
         const todayClass = (i === new Date().getDate() && date.getMonth() === new Date().getMonth() && date.getFullYear() === new Date().getFullYear()) ? 'today' : 'otherdays';
+        const hasEventClass = events[formattedDate] ? 'has-event' : ''; //Event indicator
+        
+
+        console.log(`Date: ${formattedDate}, TodayClass: ${todayClass}, HasEventClass: ${hasEventClass}`);
 
         const li = document.createElement('li');
+        li.className = `${todayClass} ${hasEventClass}`;
+     
+        
 
+        //delete button
         if (events[formattedDate]) {
                 const deleteButton = document.createElement('button');
 
@@ -74,9 +82,11 @@ const renderCalendar = () => {
 
         let eventsMarkup = '';
 
+        //creates HTML block for anything including a hyperlink <a>, <div> styled with (`today class`), and an (i) which is day number.
         days += `<a href="${`/Event/ViewEvent?eventDate=${formattedDate}`}"><div class="${todayClass}" data-date="${formattedDate}">${i}${eventsMarkup}</div></a>`;
     }
 
+     
     // Render next month's days
     for (let j = 1; j <= nextDays; j++) {
         days += `<div class="next-date">${j}</div>`;
@@ -85,7 +95,7 @@ const renderCalendar = () => {
     monthDays.innerHTML = days;
 }
 
-
+//arrow function
 document.querySelector('.prev').addEventListener('click', () => {
     date.setMonth(date.getMonth() - 1);
     renderCalendar();
@@ -98,14 +108,21 @@ document.querySelector('.next').addEventListener('click', () => {
 
 renderCalendar();
 
+// Add a click event listener to the first element with the class 'days'
 document.querySelector('.days').addEventListener('click', (event) => {
+    // Check if the clicked element has one of the following classes: 'today', 'prev-date', or 'next-date'
     if (event.target.classList.contains('today') || event.target.classList.contains('prev-date') || event.target.classList.contains('next-date')) {
+        // Retrieve the value of the 'data-date' attribute from the clicked element
         const eventDate = event.target.getAttribute('data-date');
-        if (date) {
+
+        // If the 'data-date' attribute exists
+        if (eventDate) {
+            // Redirect the browser to 'event.html' and include the date as a query parameter
             window.location.href = `/event.html?date=${eventDate}`;
         }
     }
 });
+
 
 
 
@@ -128,3 +145,26 @@ document.querySelector('.days').addEventListener('click', (event) => {
         }
     }
 });
+
+const getEvents = async () => { //Event Indicator
+    const data = await fetch('Event/GetAllEvents');
+    const response = await data.json();
+    return response;
+};
+
+let allEvents = [];
+
+getEvents().then((data) => {
+    console.log('data', data);
+    data.forEach((event) => {
+        const day = document.querySelector(`div[data-date="${event.Date}"]`);
+        if (day) {
+            day.textContent += "*";
+        }
+  })
+
+});
+
+
+
+
