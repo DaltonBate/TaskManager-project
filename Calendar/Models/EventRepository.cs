@@ -28,9 +28,10 @@ namespace Calendar.Models
         //inserts new event to database
         public void InsertEvent(Event eventToInsert)
         {
+            var descriptionItem = eventToInsert.Description == null ? "": eventToInsert.Description;
             // Executes an insert command with parameters for the event's name, date, and description
             _conn.Execute("INSERT INTO calendar (Name, Date, Description) VALUES (@name, @date, @description)",  
-                new { description = eventToInsert.Description, name = eventToInsert.Name, date = eventToInsert.Date });
+                new { description = descriptionItem, name = eventToInsert.Name, date = eventToInsert.Date });
         }
         // retrive events that occur on a specific date
         public IEnumerable<Event> GetEventsByDate(string date)

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\acwr2\\Desktop\\Calendar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\models\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\models\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,22 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\models\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\models\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\views\\event\\staticpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\views\\event\\staticpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\models\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +27,32 @@
       "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\views\\event\\staticpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\views\\event\\staticpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\views\\event\\viewevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\views\\event\\viewevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|solutionrelative:calendar\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6105A17E-437B-469C-AC67-88835960BEDC}|Calendar\\Calendar.csproj|c:\\users\\acwr2\\desktop\\calendar\\calendar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Views\\Event\\Index.cshtml",
               "RelativeDocumentMoniker": "Calendar\\Views\\Event\\Index.cshtml",
@@ -79,12 +79,11 @@
               "ViewState": "AQIAAA8AAAAAAAAAAAAAADYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-09T17:04:54.313Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Calendar\\Views\\Home\\Index.cshtml",
@@ -93,47 +92,58 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-29T22:51:14.094Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Calendar\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\wwwroot\\css\\site.css",
               "RelativeToolTip": "Calendar\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAuwJEAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-07T19:21:32.8Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Calendar\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\wwwroot\\js\\site.js",
               "RelativeToolTip": "Calendar\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAADAAAAAAAAAAAAAkwJoAAAATAAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAJoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-08-07T19:22:16.287Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Calendar\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\Event.cs",
+              "RelativeToolTip": "Calendar\\Models\\Event.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T05:28:52.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StaticPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Views\\Event\\StaticPage.cshtml",
-              "RelativeDocumentMoniker": "Calendar\\Views\\Event\\StaticPage.cshtml",
-              "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Views\\Event\\StaticPage.cshtml",
-              "RelativeToolTip": "Calendar\\Views\\Event\\StaticPage.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T19:42:08.455Z",
+              "DocumentIndex": 0,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\EventRepository.cs",
+              "RelativeDocumentMoniker": "Calendar\\Models\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\EventRepository.cs",
+              "RelativeToolTip": "Calendar\\Models\\EventRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T05:28:58.099Z",
               "EditorCaption": ""
             },
             {
@@ -144,7 +154,7 @@
               "RelativeDocumentMoniker": "Calendar\\Controllers\\EventController.cs",
               "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Controllers\\EventController.cs",
               "RelativeToolTip": "Calendar\\Controllers\\EventController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAA9wCcAAAAsAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAcwCcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T05:25:05.08Z",
               "EditorCaption": ""
@@ -157,14 +167,14 @@
               "RelativeDocumentMoniker": "Calendar\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Calendar\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T05:28:34.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "IEventRepository.cs",
               "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\IEventRepository.cs",
               "RelativeDocumentMoniker": "Calendar\\Models\\IEventRepository.cs",
@@ -177,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Calendar\\Models\\ErrorViewModel.cs",
@@ -185,38 +195,23 @@
               "RelativeToolTip": "Calendar\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T05:28:45.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "Calendar\\Models\\Event.cs",
-              "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\Event.cs",
-              "RelativeToolTip": "Calendar\\Models\\Event.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T05:28:52.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EventRepository.cs",
-              "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\EventRepository.cs",
-              "RelativeDocumentMoniker": "Calendar\\Models\\EventRepository.cs",
-              "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\EventRepository.cs",
-              "RelativeToolTip": "Calendar\\Models\\EventRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T05:28:58.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T05:28:45.923Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "StaticPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Views\\Event\\StaticPage.cshtml",
+              "RelativeDocumentMoniker": "Calendar\\Views\\Event\\StaticPage.cshtml",
+              "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Views\\Event\\StaticPage.cshtml",
+              "RelativeToolTip": "Calendar\\Views\\Event\\StaticPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T19:42:08.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ViewEvent.cshtml",
               "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Views\\Event\\ViewEvent.cshtml",
               "RelativeDocumentMoniker": "Calendar\\Views\\Event\\ViewEvent.cshtml",
@@ -224,12 +219,11 @@
               "RelativeToolTip": "Calendar\\Views\\Event\\ViewEvent.cshtml",
               "ViewState": "AQIAAD8AAAAAAAAAAAAAAFcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T19:16:59.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T19:16:59.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Program.cs",
               "RelativeDocumentMoniker": "Calendar\\Program.cs",
