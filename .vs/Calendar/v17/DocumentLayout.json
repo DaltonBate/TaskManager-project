@@ -130,8 +130,7 @@
               "RelativeToolTip": "Calendar\\Models\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T05:28:52.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T05:28:52.988Z"
             },
             {
               "$type": "Document",
@@ -141,7 +140,7 @@
               "RelativeDocumentMoniker": "Calendar\\Models\\EventRepository.cs",
               "ToolTip": "C:\\Users\\acwr2\\Desktop\\Calendar\\Calendar\\Models\\EventRepository.cs",
               "RelativeToolTip": "Calendar\\Models\\EventRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAABkAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T05:28:58.099Z",
               "EditorCaption": ""
@@ -156,8 +155,7 @@
               "RelativeToolTip": "Calendar\\Controllers\\EventController.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAcwCcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T05:25:05.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T05:25:05.08Z"
             },
             {
               "$type": "Document",
@@ -169,8 +167,7 @@
               "RelativeToolTip": "Calendar\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T05:28:34.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T05:28:34.25Z"
             },
             {
               "$type": "Document",
@@ -182,8 +179,7 @@
               "RelativeToolTip": "Calendar\\Models\\IEventRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T05:29:03.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T05:29:03.733Z"
             },
             {
               "$type": "Document",
